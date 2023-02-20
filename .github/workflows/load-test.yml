@@ -1,7 +1,8 @@
 name: K6 load test
 on: [push]
 jobs:
-  build: K6 load test
+  build: 
+  name: K6 load test
   runs-on: ubuntu-latest
   steps:
     - name: step 1 - checkout
